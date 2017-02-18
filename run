@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+cabal configure
+cabal build
+./dist/build/haskell-tetris/haskell-tetris
